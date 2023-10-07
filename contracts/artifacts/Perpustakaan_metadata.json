@@ -1,0 +1,209 @@
+{
+	"compiler": {
+		"version": "0.8.20+commit.a1b79de6"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bytes32",
+						"name": "isbn",
+						"type": "bytes32"
+					},
+					{
+						"internalType": "string",
+						"name": "title",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "author",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "year",
+						"type": "uint256"
+					}
+				],
+				"name": "addBook",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "admin",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"name": "books",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "title",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "author",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "year",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bytes32",
+						"name": "isbn",
+						"type": "bytes32"
+					}
+				],
+				"name": "deleteBook",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "kodeKelompok",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "kodePenerbit",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "kodeJudul",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "kodePemeriksa",
+						"type": "uint256"
+					}
+				],
+				"name": "generateISBN",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "totalBooks",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bytes32",
+						"name": "isbn",
+						"type": "bytes32"
+					},
+					{
+						"internalType": "string",
+						"name": "newTitle",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "newAuthor",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "newYear",
+						"type": "uint256"
+					}
+				],
+				"name": "updateBook",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/CrudPerpus.sol": "Perpustakaan"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/CrudPerpus.sol": {
+			"keccak256": "0x4d10cf61d251020f9c0bbe7739ddde061a21f43837124afcc938cf85fb24e695",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://111d7ae098416954d336999b15771eaacb1d4e21ba43a17fda07cff5ea9aebc5",
+				"dweb:/ipfs/QmZ3AjBCWYHpvYcdN1UoPFn38rto8iisQJJT1yNut3ujrq"
+			]
+		}
+	},
+	"version": 1
+}
