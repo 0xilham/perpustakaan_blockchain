@@ -52,9 +52,9 @@ Buat kode smartcontract Perpustakaan ke dalam file `Perpustakaan.sol` dalam dire
      },
    };
 
-### Langkah 4: Buat Script Deployment, Function Execution, dan Testing
+### Langkah 4: Buat Script Deployment dan Testing
 
-1. Buat direktori `scripts` dalam direktori proyek Anda.
+1. Buat direktori `scripts`dan `test` dalam root proyek Anda.
 
 2. Buat Script deployment dalam direktori `scripts` dan buat script testing dalam direktori `test` sesuai dengan langkah-langkah berikut:
 
