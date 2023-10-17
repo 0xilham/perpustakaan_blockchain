@@ -1,19 +1,3 @@
-# Sample Hardhat Project
-
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
-
-Try running some of the following tasks:
-
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
-```
-
-
-
 ## Langkah-langkah Menjalankan Proyek Hardhat dengan Smart Contract Perpustakaan
 
 ### Langkah 1: Inisialisasi Proyek
@@ -40,7 +24,7 @@ Pilih opsi "Create an empty hardhat.config.js".
 
 ```sh
 npm install --save-dev hardhat @nomicfoundation/hardhat-toolbox solc chai
-
+```
 
 Proyek Hardhat Anda sudah siap untuk digunakan.
 
@@ -104,4 +88,14 @@ npx hardhat test
 
 ```sh
 npx hardhat test
+```
+
+#### Alternatif perintah dari hardhat
+
+```shell
+npx hardhat help
+npx hardhat test
+REPORT_GAS=true npx hardhat test
+npx hardhat node
+npx hardhat run scripts/deploy.js
 ```
